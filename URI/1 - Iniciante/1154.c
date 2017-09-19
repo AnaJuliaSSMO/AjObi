@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	double med,id,is,cont = 0;
+	double med,id,is = 0,cont = 0;
 
 	while(1)
 	{

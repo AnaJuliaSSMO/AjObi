@@ -42,7 +42,7 @@ int main(void)
 		rjt = novosal - sal;
 	}
 
-	printf("Novo salario: %.2lf\nReajuste ganho: %2.lf\nEm percentual: %d %%\n", novosal,rjt,bonus);
+	printf("Novo salario: %.2lf\nReajuste ganho: %.2lf\nEm percentual: %d %%\n", novosal,rjt,bonus);
 
 	return 0;
 }
