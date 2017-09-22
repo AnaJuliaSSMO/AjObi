@@ -1,13 +1,26 @@
 #include <stdio.h>
 
-int main(void)
+int main (void)
 {
-	double n1,n2,fator1;
-	scanf("%lf%lf", &n1, &n2);
+	int m,n,i,j;
+	double result;
 
-	for(fator1 = 1; n1 > 1; n1--)
-	fator1 = fator1 * n1;
+	scanf("%d%d", &m,&n);
 
-	printf("%lf", fator1);
+	for(i = 1; m > 1; m--)
+	{
+		i *= m;
+	}
+
+	for(j = 1; n > 1; n--)
+	{
+		j *= n;
+	}
+
+	result = i + j;
+
+	printf("%.0lf\n", result);
+
 	return 0;
+
 }
