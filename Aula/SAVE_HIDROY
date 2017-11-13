@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+	int n;
+
+	scanf
+
+	if(n > 0)
+	{
+		printf("%s\n", );
+	}
+	return 0;
+}
+//If N is positive then produce 5N lines of output. These lines actually draw the horizontal banner.
+//Two consecutive letters in a word are separated by N vertical dotted lines. Two words are separated
+//by 3N vertical dotted lines.
+//If N is negative then produce 5L ∗ 10 + 11L lines of output, where L is the absolute value of N.
+//Two consecutive characters in a word are separated by L horizontal dotted lines, and two words are
+//separated by 3L horizontal dotted lines.
+//After the output of each test case print two blank lines.
